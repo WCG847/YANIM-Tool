@@ -1,0 +1,3 @@
+[submodule "3rdParty/YukesEssentials"]
+	path = 3rdParty/YukesEssentials
+	url = https://github.com/WCG847/YukesEssentials.git
