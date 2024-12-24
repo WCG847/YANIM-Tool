@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="CEKey\" />
     <Folder Include="CEKey\core\" />
+    <Folder Include="MotionData\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CEKey\core\ce_key.py" />
@@ -35,6 +36,9 @@
     <Compile Include="Main_Window.py" />
     <Compile Include="menu_builder.py" />
     <Compile Include="tree_view_manager.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MotionData\Parser.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
